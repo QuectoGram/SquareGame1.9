@@ -10,7 +10,7 @@ PrivilegesRequired=admin
 [Files]
 Source: "SquareGame1.9.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "settings.yml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "glfw.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "glfw3.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "libgcc_s_seh-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "libraylib.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "libwinpthread-1.dll"; DestDir: "{app}"; Flags: ignoreversion
